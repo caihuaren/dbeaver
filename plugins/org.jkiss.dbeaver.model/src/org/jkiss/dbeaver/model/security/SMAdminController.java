@@ -89,7 +89,7 @@ public interface SMAdminController extends SMController {
     ) throws DBException;
 
     @NotNull
-    List<SMObjectPermissionsGrant> getGrantedObjectPermissions(
+    List<SMObjectPermissionsGrant> getObjectPermissionGrants(
         @NotNull String objectId,
         @NotNull SMObjectType smObjectType
     ) throws DBException;
